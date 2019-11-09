@@ -79,14 +79,9 @@ struct ContentView: View {
                 
             }
             .listStyle(GroupedListStyle())
-            .navigationBarTitle(Text("Example"),
+            .navigationBarTitle(Text("SwiftUI-Go"),
                                 displayMode: .large)
-                                .navigationBarItems(trailing: Button(action: {
-                           print("Tap")
-                       },
-                                                                     label: {
-                           Text("Right").foregroundColor(.orange)
-                       }))
+                                
         }
     }
     
