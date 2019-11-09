@@ -174,6 +174,7 @@ var formatter: NumberFormatter = {
     return f
 }()
 
+
 extension String {
     var containsDot: Bool {
         return contains(".")
