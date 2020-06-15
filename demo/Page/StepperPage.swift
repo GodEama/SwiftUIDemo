@@ -19,7 +19,7 @@ struct StepperPage : View {
                 print(c)
             }) {
                 Text("Stepper Value: \(self.value)")
-            }.padding(50)
+            }.padding(50).foregroundColor(.orange)
         }.navigationBarTitle(Text("Stepper"))
     }
 }

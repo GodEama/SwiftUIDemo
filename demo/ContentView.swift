@@ -42,6 +42,9 @@ struct ContentView: View {
                     NavigationLink(destination: StepperPage()){
                         PageRow(title: "StepperPage", subtitle: "用以增加或减少数值")
                     }
+                    NavigationLink(destination: GeometryReaderPage()){
+                        PageRow(title: "GeometryReaderPage", subtitle: "几何容器")
+                    }
                 }
                 Section(header: Text("选择器")){
                     NavigationLink(destination: PickerPage()){

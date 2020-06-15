@@ -18,8 +18,6 @@ struct TextFieldPage : View {
     
     var body: some View {
             VStack(spacing: 15) {
-              
-                
                 HStack {
                     Text("账号：").foregroundColor(.secondary)
                     TextField("", text: $name, onEditingChanged:{ (changed) in
